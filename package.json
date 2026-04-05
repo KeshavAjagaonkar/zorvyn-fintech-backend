@@ -1,0 +1,32 @@
+{
+  "name": "zorvyn-fintech-backend",
+  "version": "1.0.0",
+  "description": "backend for fintech-zorvyn assesment",
+  "homepage": "https://github.com/KeshavAjagaonkar/zorvyn-fintech-backend#readme",
+  "bugs": {
+    "url": "https://github.com/KeshavAjagaonkar/zorvyn-fintech-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeshavAjagaonkar/zorvyn-fintech-backend.git"
+  },
+  "license": "ISC",
+  "author": "KeshavAjagaonkar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.6.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "prisma": "^7.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
