@@ -5,6 +5,7 @@ import cors from 'cors';
 import authroutes from './routes/auth.routes.js';
 import userRoutes from './routes/user.routes.js';
 import recordRoutes from './routes/record.routes.js';
+import dashboardRoutes from './routes/dashboard.routes.js'
 
 
 const app = express();
@@ -15,6 +16,7 @@ app.use(express.json());
 app.use('/auth', authroutes);
 app.use('/users', userRoutes);
 app.use('/records', recordRoutes);
+app.use('/dashboard', dashboardRoutes);
 
 
 const PORT  = process.env.PORT || 3000;
