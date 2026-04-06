@@ -345,6 +345,6 @@ updatedAt    DateTime  Auto updated
 
 ## Live API
 
-Base URL: `https://your-render-url.onrender.com`
+Base URL: `https://zorvyn-fintech-backend.onrender.com/`
 
 > Test credentials available on request.
